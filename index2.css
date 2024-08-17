@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    background-color: #000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 10vh;
+}
+
+.logo img {
+    height: 150px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 120px;
+    margin: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 28px;
+
+}
+
+.cart a {
+    font-size: 100px;
+   
+  }
+.banner2{
+    width: 100%;
+    background-color: rgb(184, 185, 185);
+    height: 10px;
+}
+
+.welcome-section {
+ margin-top: 70px;
+    position: relative;
+    left: 550px;
+    text-align: center;
+    max-width: 800px;
+    padding: 40px;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.welcome-section h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.welcome-section p {
+    font-size: 20px;
+    line-height: 1.6;
+}

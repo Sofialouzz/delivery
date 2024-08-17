@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+ 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 10vh;
+}
+header img{
+    height: 2vh;
+}
+
+.logo img {
+    height: 150px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 120px;
+    margin: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+
+}
+
+.cart a {
+    font-size: 100px;
+   
+  }
+.banner2{
+    width: 100%;
+    background-color: rgb(184, 185, 185);
+    height: 10px;
+}
+
+main.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 25px 70px 0 150px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.sushi-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sushi-image img {
+    width: 600px;
+    max-width: 800px;
+    border-radius: 50%;
+}
+
+.welcome-section {
+    display: flex;
+     font-size: 24px;
+}
+.welcome-section input{
+    display: flex;
+    justify-content: left;
+    height: 6%;
+    width: 90%;
+    border-radius: 60px;
+    background-color: rgb(184, 185, 185);
+    padding: 0 0 0 100px;
+}
+
+.contact-info {
+    text-align: center;
+    padding: 40px 20px;
+    gap: 30px; 
+    color: #fff;
+    font-size: 20px;
+}
+.contact-info a{
+    text-decoration: none;
+    color: white;
+}
+
+.contact-info p {
+    margin: 10px 0;gap: 30px;
+    color: #fff;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a img {
+    width: 50px;
+    margin: 0 10px;
+}
+
+.working-hours p {
+    margin: 10px 0;
+}

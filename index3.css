@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    background-color: #000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 10vh;
+}
+
+.logo img {
+    height: 150px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 120px;
+    margin: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 28px;
+
+}
+
+.cart a {
+    font-size: 100px;
+   
+  }
+.banner2{
+    width: 100%;
+    background-color: rgb(184, 185, 185);
+    height: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    padding: 80px 20px 20px 20px;
+    background-color: #000;
+}
+
+.cadastro {
+ 
+    flex: 1;
+    padding: 20px; color: #fff;
+}
+
+.cadastro h2 {
+    font-size: 44px;  
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.cadastro p {
+    font-size: 28px;
+    margin: 10px 0; 
+}
+
+.image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.image img {
+    max-width: 100%;
+    width: 83%;
+    border-radius: 50%;
+    object-fit: cover;
+}

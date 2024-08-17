@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+
+    background-color: #000;
+    
+ 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 10vh;
+}
+
+.logo img {
+    height: 150px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 120px;
+    margin: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 28px;
+
+}
+
+.cart a {
+  font-size: 100px;
+ 
+}
+.banner2{
+    width: 100%;
+    background-color: rgb(184, 185, 185);
+    height: 10px;
+}
+
+
+body {
+
+    background-color: black;
+
+
+    margin: 0;
+}
+.container {  text-align: right;
+    font-weight: bold;
+    width: 1000px;
+    padding: 20px;
+    position: relative;
+ 
+    left: 400px;
+    border: 2px solid white;
+}
+h1 {
+    text-align: center; color: #fff;
+    text-decoration: underline;
+}
+.section {  width: 160px;   display: flex;
+    flex-direction: column;
+    height: 20%;   font-size: 20px; color: #fff;
+    margin-bottom: 20px;
+}
+.section p {
+    margin: 5px 0; 
+}
+
+.total { position: relative;
+    top: -200px; color: #fff;
+    left: 400px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 30px;
+    width: 600px;
+}
